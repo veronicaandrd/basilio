@@ -10,7 +10,6 @@ a {
 
 .bg3 {
   background: linear-gradient(160deg, #F9F9F9, #EAEAEA);
-  // background-attachment: fixed;
   font-family: "Inter Tight", sans-serif;
 }
 
@@ -152,6 +151,65 @@ a {
   color: #589A4F;
   margin-right: 1px;
   border-radius: 2px;
+}
+
+.header {
+  flex-shrink: 0;
+  position: sticky;
+}
+
+.heading {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+  color: #333333;
+  margin: 16px 0 16px 2px;
+}
+
+.about {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #777777;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.archive {
+  flex: 1;
+  overflow-y: auto;
+  margin: 0 0 -30px 2px;
+  padding-bottom: 30px;
+}
+
+.archive a {
+  text-decoration: none;
+}
+
+.entry {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #777777;
+}
+
+.divider {
+  border-bottom: 1px solid #b6b6b6;
+  margin: 20px 0;
+}
+
+.entry b {
+  font-weight: 600;
+  color: #333;
 }
 
 .placeholder-card {
