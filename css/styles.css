@@ -176,7 +176,7 @@ a {
   letter-spacing: 0.4px;
   color: #777777;
   display: inline-block;
-  margin-bottom: 8px;
+  margin: 0 0 8px 2px;
 }
 
 .archive {
