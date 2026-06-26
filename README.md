@@ -10,7 +10,7 @@ Basilio is a basil (*Ocimum basilicum*) growing as part of an experiment in anim
 
 #### Web Interface (Plant Diary)
 
-An interactive web interface that displays the plant’s “diary” and experimental records:
+An interactive web interface that displays the plant’s “journal” and experimental records:
 
 https://veronicaandrd.github.io/basilio/index.html
 
