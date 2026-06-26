@@ -2,7 +2,7 @@
 
 This repository contains the files for the Basilio project, including the web interface, experimental data, and implementation resources developed during the study. It supports exploring and analyzing the plant-related data collected throughout the experiment.
 
-
+![Loop](assets/loop.png)
 
 #### Who's Basilio?
 
