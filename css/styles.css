@@ -41,6 +41,10 @@ a {
   gap: 8px;
 }
 
+.btn:hover {
+  background-color: #ffffff;
+}
+
 .btn-label {
   font-size: 14px;
   font-weight: 500;
@@ -218,4 +222,20 @@ a {
   border-radius: 16px;
   height: 240px;
   margin-bottom: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.buttons {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
 }
