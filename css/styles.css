@@ -29,8 +29,6 @@ a {
   justify-content: space-between;
   gap: 8px;
   margin: 24px -2px 0;
-  opacity: 0;
-  animation: fadeIn 0.8s ease-out forwards;
 }
  
 .buttons-left {
@@ -142,6 +140,8 @@ a {
   line-height: 30px;
   color: #333333;
   margin-bottom: 16px;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
 .post-date {
